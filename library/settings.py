@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'Books',
     # tashqi app
     'rest_framework',
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
