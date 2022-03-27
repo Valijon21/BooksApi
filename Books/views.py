@@ -1,8 +1,6 @@
 from  django.views.generic import ListView
 from .models import Books
 # Create your views here.
-
-class BookList(ListView):
-    
+class BookListView(ListView):
     model = Books
-    template_name = 
+    template_name = 'books_list.html'
